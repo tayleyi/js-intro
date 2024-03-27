@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Memorial Belltower",
+    "type": "Landmark",
+    "lat": 35.7861412,
+    "lon": -78.66350316,
+    "photo_url": "https://live.staticflickr.com/8383/29084921961_ea9cd39fa2_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Brickyard",
+    "type": "Landmark",
+    "lat": 35.78709418,
+    "lon": -78.67077429,
+    "photo_url": "https://live.staticflickr.com/4651/38691306840_bd9cd9a37a_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Free Expression Tunnel",
+    "type": "Landmark",
+    "lat": 35.7854732,
+    "lon": -78.67176402,
+    "photo_url": "https://live.staticflickr.com/4571/37535204414_c1c2f0a59a_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Wolf Statues",
+    "type": "Landmark",
+    "lat": 35.7850038,
+    "lon": -78.672011,
+    "photo_url": "https://live.staticflickr.com/4608/40067921452_34dcaba71c_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Court of North Carolina",
+    "type": "Landmark",
+    "lat": 35.78625867,
+    "lon": -78.66604287,
+    "photo_url": "https://live.staticflickr.com/4300/36249334296_ee83f4f589_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Lake Raleigh",
+    "type": "Landmark",
+    "lat": 35.764844,
+    "lon": -78.681539,
+    "photo_url": "https://live.staticflickr.com/4082/4818645881_cc3fc642e9_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Hill Library",
+    "type": "Building",
+    "lat": 35.78754783,
+    "lon": -78.66957028,
+    "photo_url": "https://live.staticflickr.com/7535/29072167265_cd97a3e6ff_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Hunt Library",
+    "type": "Building",
+    "lat": 35.76929356,
+    "lon": -78.67638414,
+    "photo_url": "https://live.staticflickr.com/7483/29382466223_994eedfea6_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Talley Student Union",
+    "type": "Building",
+    "lat": 35.78399412,
+    "lon": -78.67088505,
+    "photo_url": "https://live.staticflickr.com/4244/34755980060_3f3e84bb17_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Holladay Hall",
+    "type": "Building",
+    "lat": 35.78548012,
+    "lon": -78.66395816,
+    "photo_url": "https://live.staticflickr.com/2042/2263591375_35b94955dd_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Reynolds Coliseum",
+    "type": "Athletic Facility",
+    "lat": 35.7835351,
+    "lon": -78.66994376,
+    "photo_url": "https://live.staticflickr.com/8371/29567326802_7f8a55a4c7_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "Carter-Finley Stadium",
+    "type": "Athletic Facility",
+    "lat": 35.80083815,
+    "lon": -78.71947722,
+    "photo_url": "https://live.staticflickr.com/8274/30053461851_9a36d78a00_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  },
+  {
+    "name": "PNC Arena",
+    "type": "Athletic Facility",
+    "lat": 35.80335665,
+    "lon": -78.72193609,
+    "photo_url": "https://live.staticflickr.com/7264/7106334773_e38d42837b_z.jpg",
+    "photo_source": "ncsuweb Flickr"
+  }
+]

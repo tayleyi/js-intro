@@ -20,11 +20,11 @@
  *****************************************************************************/
 
 
+
 /****************************************************************************
  * 1.
  * BASIC TYPES
  *****************************************************************************/
-
 // Constant
 const CANNOT_BE_CHANGED = 10;
 // This will result in a TypeError:
@@ -50,11 +50,11 @@ value = -75.5;						// typeof(value) is still 'number'
 /*****************************************************************************/
 
 
+
 /****************************************************************************
  * 2.
  * MATHEMATICAL OPERATIONS
  ****************************************************************************/
-
 // Addition
 let four = 1 + 3;								// Numerical addition
 let five = four + 1;							// Numerical addition with a variable
@@ -82,12 +82,12 @@ let conditional_7 = (130 >= 90);		// Returns 'true'
 /*****************************************************************************/
 
 
+
 /****************************************************************************
  * 3.
  * Lists
  * State symbols from https://en.wikipedia.org/wiki/List_of_North_Carolina_state_symbols
  ****************************************************************************/
-
 // Indexing
 const STATE_PLANTS = ["venus flytrap", "fraser fir", "flowering dogwood", "pine", "carolina lily"]
 let carnivorousPlant = STATE_PLANTS[0];
@@ -107,12 +107,16 @@ state_geology.splice(0, 1);		// Remove 1 item starting at index 0
 /*****************************************************************************/
 
 
+
 /****************************************************************************
  * 4.
  * LOOPS AND CONTROL FLOW
- * Not mentioned, but would be good to look into: try/catch, break/continue, filter()
+ * Not mentioned, but would be good to look into:
+ * 		- try/catch https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+ * 		- break/continue https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break
+ * 						https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue
+ * 		- filter() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
  *****************************************************************************/
-
 // If/Else
 // If conditional_1 is true...
 if (conditional_1) {
@@ -155,7 +159,6 @@ for (let plant in STATE_PLANTS) {
  * 5.
  * COMMON BUILTIN LIBRARIES AND FUNCTIONS
  ****************************************************************************/
-
 // Rounding (helpful for integer division)
 let divided = 25 / 4;					// 6.25
 let rounded = Math.trunc(divided);		// 6
@@ -177,13 +180,26 @@ let minute = now.getMinutes();
 let sunday = new Date(2024, 2, 31, 0, 0, 0, 0);
 let hours_difference = (sunday - now) / (1000 * 60 * 60); 	// Converting to hours from milliseconds
 
+// Strings
+let testString = "The quick brown fox jumps over the lazy dog";
+testString.charAt(0);
+// This will not work
+//testString[testString.length];
+testString[testString.length - 1];
+testString.substring(0, 5);
+testString.includes("brown");
+testString.includes("blue");
+testString.toUpperCase();
+testString.length;
 /****************************************************************************/
+
 
 
 /****************************************************************************
  * 6.
  * WRITING FUNCTIONS
  * Not listed here, but async/await is also important to know for web development.
+ * 		- async: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
  ****************************************************************************/
 // Can call the function via "sum" and "getSum."
 const sum = function getSum(list) {
@@ -195,6 +211,8 @@ const sum = function getSum(list) {
 }
 // Get results.
 sum([1, 2, 3, 4, 5]);
+/****************************************************************************/
+
 
 
 /****************************************************************************

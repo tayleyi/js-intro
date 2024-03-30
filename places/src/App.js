@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function Home() {
-  const [currentLandmark, setCurrentLandmark] = useState(null);
+  const [selectedLandmarkName, setSelectedLandmarkName] = useState("");
   const [landmarks, setLandmarks] = useState([
 	{
       "name": "Memorial Belltower",
@@ -21,10 +21,42 @@ export default function Home() {
     },
   ]);
 
+  const listItems = landmarks.map(place => <li key={place.name}>{place.name}</li>);
+
+  function LandmarkCard() {
+	if (selectedLandmarkName === "") {
+      return null;
+	}
+	else {
+	  let landmarkDetails;
+	  if (selectedLandmarkName === "Memorial Belltower") {
+		landmarkDetails = landmarks[0];
+	  }
+	  else if (selectedLandmarkName === "Carter-Finley Stadium") {
+		landmarkDetails = landmarks[1];
+	  }
+	  else {
+		return (<><p>Not found</p></>);
+	  }
+      return (
+	  	<>
+	  	  <h1>{landmarkDetails.name}</h1>
+	  	  <p>Latitude: {landmarkDetails.lat}</p>
+	  	  <p>Longitude: {landmarkDetails.lon}</p>
+	  	</>
+	  );
+	}
+  }
   return (
     <>
 		<div>
 			<h1>NCSU Places</h1>
+			<ul>
+				{listItems}
+			</ul>
+			<input value={selectedLandmarkName}
+				onChange={e => setSelectedLandmarkName(e.target.value)} />
+			<LandmarkCard />
         </div>
     </>
   )
